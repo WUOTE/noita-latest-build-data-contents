@@ -6,4 +6,4 @@
 Reference: 
 | Release Date                     |          ManifestID |   Branch/Tag   |
 | :------------------------------- | :------------------ |  ------------: |
-| 23 April 2021 – 14:28:19 UTC     |  [226707737181927261](https://github.com/WUOTE/noita-builds-data/tree/main/Builds-data-contents/226707737181927261) |   noitabeta    |
+| 23 April 2021 – 14:28:19 UTC     |  [226707737181927261](https://github.com/WUOTE/noita-latest-build-data-contents/tree/main/226707737181927261) |   noitabeta    |
