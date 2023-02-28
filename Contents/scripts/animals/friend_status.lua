@@ -27,9 +27,9 @@ if ( count < tcount ) and ( countcomp ~= 0 ) then
 		ComponentSetValue2( ac, "attack_ranged_entity_file", "data/entities/projectiles/machinegun_bullet_roboguard_big.xml" )
 	end
 	
-	local c = EntityGetComponent( entity_id, "SpriteComponent", "health_bar" )
-	if ( c ~= nil ) then
-		for i,v in ipairs( c ) do
+	local sc = EntityGetComponent( entity_id, "SpriteComponent", "health_bar" )
+	if ( sc ~= nil ) then
+		for i,v in ipairs( sc ) do
 			ComponentSetValue2( v, "visible", true )
 		end
 	end
