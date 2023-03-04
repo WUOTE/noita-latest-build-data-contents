@@ -52,7 +52,13 @@ perk_list =
 					ComponentSetValue( model, "swim_extra_horizontal_drag", swim_drag_extra )
 				end
 			end
-
+			
+			-- Thanks to Cr4xy
+			local damage_model = EntityGetFirstComponent( entity_who_picked, "DamageModelComponent" )
+			if( damage_model ~= nil ) then
+				local air_max = ComponentGetValue( damage_model, "air_in_lungs_max" )
+				ComponentSetValue( damage_model, "air_in_lungs", air_max )
+			end
 		end,
 		func_remove = function( entity_who_picked )
 			local models = EntityGetComponent( entity_who_picked, "CharacterPlatformingComponent" )

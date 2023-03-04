@@ -3,8 +3,6 @@
 	<Base file="data/entities/base_projectile.xml" >
 	</Base>
 
-  <!-- NOTE: lifetime=2 - should fix the AudioLoopComponent from leaking memory and also makes the sound appear. Thanks to Letaati -->
-
   <ProjectileComponent 
     _enabled="1" 
     lob_min="0.8"
@@ -19,7 +17,7 @@
     ground_collision_fx="1"
     explosion_dont_damage_shooter="1" 
     on_collision_die="1"
-    lifetime="2"
+    lifetime="1"
     damage="0.0"
     velocity_sets_scale="1"
     lifetime_randomness="0"
