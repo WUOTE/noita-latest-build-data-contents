@@ -32,8 +32,9 @@
 	</PhysicsShapeComponent>
 
 
-	<!-- DEBUG DO NOT COMMIT -->
+	<!-- 
 	<SpriteComponent image_file="data/debug/circle_16.png" />
+	-->
 
 
 	<Base file="data/entities/base_enemy_flying.xml" >
